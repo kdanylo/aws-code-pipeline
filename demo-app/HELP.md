@@ -2,7 +2,7 @@
 The following was discovered as part of building this project:
 
 * The JVM level was changed from '11' to '17', review the [JDK Version Range](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range) on the wiki for more details.
-* The original package name 'com.example.dk.demo-app' is invalid and this project uses 'com.example.dk.demo_app' instead.
+* The original package name 'com.dk.aws.code.pipeline.demo-app' is invalid and this project uses 'com.dk.aws.code.pipeline.demo_app' instead.
 
 # Getting Started
 
