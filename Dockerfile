@@ -1,6 +1,6 @@
 FROM alpine:3
 
-RUN apk --update --no-cache add git aws-cli
+RUN apk add -update -no-cache git aws-cli
 
 COPY entrypoint.sh /entrypoint.sh
 
