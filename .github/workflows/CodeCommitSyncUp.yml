@@ -25,5 +25,5 @@ jobs:
       - name: Sync app to CodeCommit
         uses: kdanylo/aws-code-pipeline@main
         with:
-          repository.name: java-apps
-          aws-region: us-east-2
+          repository_name: java-apps
+          aws_region: us-east-2
