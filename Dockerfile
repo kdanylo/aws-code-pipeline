@@ -1,10 +1,12 @@
 FROM alpine:3
 
+RUN ls -l /
+
 RUN apk --update --no-cache add git aws-cli
 
-RUN ls -l
 
-COPY entrypoint.sh /entrypoint.sh
+
+###COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x entrypoint.sh
 
