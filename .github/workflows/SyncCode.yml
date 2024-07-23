@@ -1,4 +1,4 @@
-name: sync up to codecommit
+name: Sync code
 
 on:
   push:
